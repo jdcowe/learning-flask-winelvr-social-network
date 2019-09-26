@@ -11,7 +11,6 @@ app = Flask(__name__)
 photos = UploadSet('photos', IMAGES)
 
 app.config['UPLOADED_PHOTOS_DEST'] = 'images'
-app.config['DEBUG'] = True
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite://///Users/jordancowe/Documents/Ultimate Flask Course/Engage/winelover.db'
 app.config['SECRET_KEY'] = 'thewineloversapp'
 
